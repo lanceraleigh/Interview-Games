@@ -1,7 +1,9 @@
 <template>
+  <!-- ideas for how to turn it into a game -->
+  <!-- add minimum and subtract maximum until they are equal -->
   <h1>Min Max Calculator</h1>
+  <p>Enter numbers one by one to create array</p>
   <form action="" @submit.prevent="createArray">
-    <p>Enter numbers one by one to create array</p>
     <input type="text" placeholder="Enter numbers" v-model="inputNumber" />
     <input type="submit" />
   </form>
